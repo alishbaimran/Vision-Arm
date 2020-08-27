@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vision Arm.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="icon" 
+      type="image/png" 
+      href="images/eye-icon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clear floats after image containers */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+
+        .column-left{ float: left; width: 45%; }
+        .column-right{ float: right; width: 10%; }
+        .column-center{ display: inline-block; width: 33.333%; }
+    </style>
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">vision arm<span class="text-primary">.</span> </a></h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li>
+                  <a href="#about-section" class="nav-link">About</a>
+                  
+                </li>
+                <li><a href="#features-section" class="nav-link">Features</a></li>
+                <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+    
+
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+            
+            <img src="images/BeFunky-collage1.png" width="850" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1>Smart Prosthetic. Powered By AI.</h1>
+                <p class="mb-5">Vision Arm is meant to be a cheaper and fully automated alternative to prosthetic arms today. Using 3D printing to bring down costs of design and improving hand manipulation through deep learning techniques.</p>
+                <div>
+                  <a href="https://medium.com/@alishbai734/robotic-hand-that-can-see-for-itself-40e80ce05e27?source=friends_link&sk=8319b68e50d297be237c79a0d000675c" class="btn btn-primary mr-2 mb-2">Learn more!</a>
+                </div>
+              </div>
+              
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">About</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/prosthetic-arm-problem.jpg" alt="Image" class="img-fluid" style="padding-top: 70px;" width="580">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">The Problem</h2>
+            <p class="mb-4">In a nutshell, the key problems with prosthetics today are:
+              <ul>
+                  <li><b>Shortage.</b> The WHO has estimated that 30 million people are in need of prosthetic devices with there being a huge cost/accessibility barrier for people in need. </li>
+                  <li><b>Expensive.</b> Prosthetic arms today can cost anywhere from $5,000 for a purely cosmetic arm, up to $20,000 - $100,000 or more for an advanced myoelectric arm, controlled by muscle movements. Without health insurance, this is very difficult for most people to afford.</li>
+                  <li><b>Manual or difficult control.</b> It can take 3+ months for a user to learn to use a prosthetic & often also having to manually control it leading to difficulty with manipulation.</li>
+                </ul>
+              </p>
+            
+          </div>
+        </div>
+        <div class="mt-5 row mb-5 site-section ">
+            <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+                <img src="images/solutionpicfinal.png" alt="Image" class="img-fluid" style="padding-top: 60px;">
+              </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Our Solution</h2>
+            <p class="mb-4">We've developed a 3D printed arm that costs $200 vs. the existing costs which can reach $100,000. Through computer vision & reinforcement learning algorithms we train the arm to detect objects and how to best manipulate/grasp them to complete a task so that a user doesn't have to manually do this.</p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>3D Printing to improve prosthetic arm design & reduce costs.</li>
+              <li>GG-CNN for detecting objects and grasping poses to manipulate objects in real-time.</li>
+              <li>Reinforcement Learning to improve prosthetic arm training and grasping tasks in unstructured environments.</li>
+            </ul>
+          </p>
+          
+          
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  
+  <div class="site-section" id="features-section">
+        <h5 align="center">Supported by:</h5>
+<br>
+
+  <div class="container">
+   <div class="column-center"><a href="https://www.sjsu.edu/"><img src="images/SJSU_Seal.svg.png" alt="Snow" style="width:32%"></a></div>
+   <div class="column-left"><a href="https://www.kindred.ai/"><img src="images/imageonline-co-blackandwhiteimage.png" style="width:45%"></a></div>
+   <div class="column-right"><a href="https://www.hansonrobotics.com/"><img src="images/hansonr.png" style="width:135%"></a></div>
+</div>
+</div>
+
+<hr>
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Vision Arm Features</h2>
+            <p class="lead">These are some of the key components that our research and work is focused on:</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+              </div>
+              <div style="padding-bottom: 2px;">
+                <h3>3D Printed Design</h3>
+                <p>Making a very simple prosthetic arm can cost $1,000 for the materials alone. But 3D scanning and printing can shrink the cost to as little as $4 (not including other hardware). Leveraging existing open source arm designs such as <a href="https://www.bcn3d.com/bcn3d-moveo-the-future-of-learning/">Moveo arm</a> and <a href="https://github.com/mission-arm/HACKberry">HACKberry</a>, we're developing an improved design that integrates all sensors, motors, GPUs and depth camera (for grasping and object detection) into one arm. The goal is for the arm to be easier to use and much cheaper than arms today. A test version of the Moveo arm as a base platform and HACKberry will be used to test this out on our RL and CNN algorithms.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+              </div>
+              <div style="padding-bottom: 7px;">
+                <h3>Convolutional Neural Network (GG-CNN)</h3>
+                <p>The algorithm that I used for grasping detection is a Generative Grasping Convolutional Neural Network (GG-CNN) widely inspired by <a href="https://arxiv.org/pdf/1804.05172.pdf">this</a> paper. It takes in depth images of objects and predicts the pose of grasps at every pixel for different grasping tasks and objects. The GG-CNN takes in real-time depth images and identifies objects through object detection. This is further parameterised as a grasp quality, angle and gripper width for every pixel in the input image in a fraction of a second. The best grasp is calculated and a velocity command (v) is issued to the prosthetic robot arm.
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up"  data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+              </div>
+              <div>
+                <h3>Imitation & Reinforcement Learning</h3>
+                <p>We are experimenting with the Deep Deterministic Policy Gradient (DDPG), Trust Region Policy Optimization (TRPO) and Proximal Policy Optimization (PPO) in simulation to train an agent. The goal is for the agent to learn grasping techniques for unstructured environments and how to automatically adapt control systems of prosthetic arms to the needs of individual patients. We're also experimenting with the DAgger algorithm to learn through imitation learning from a patient doing certain actions that are replicated by the prosthetic arm. An example of our simulation in Pybullet can be seen <a href="https://youtu.be/cK_HMRfkUUM">here.</a></p>
+                
+              </div>
+            </div>
+          </div>
+
+
+          
+            
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/159737982104371962-removebg-preview.png" alt="Image" class="img-fluid">
+            <p>Credit: <a href="https://www.linkedin.com/in/sri-harsha-kunda-008314ab/">Sri Harsha Kunda</a> (designer), <a href="https://www.bcn3d.com/bcn3d-moveo-the-future-of-learning/">Moveo arm</a> (base platform), <a href="https://github.com/mission-arm/HACKberry">HACKberry</a> (prosthetic arm).</p>
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2 class="text-black">Our Test Prototype</h2>
+            <p class="mb-4">For the arm, we will be using the prosthetic arm design as the hand and the moveo arm as the base: Base System (Base Arm) is a platform to verify the prosthetic end functionality. <b>Moveo Arm will emulate the functionality of an actual human arm joints in various degrees of freedom. Prosthetic end will be the end effector. </b>Moveo will locate the prosthetic arm into a predefined position for executing a grab move. At this step we will perform the grab movement on prosthetic at various angles (pitch, yaw, twist) for testing the forces and movements required for a grab. 
+            </p>
+            
+            
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/Architecture.png" alt="Image" class="img-fluid" style="padding-top: 50px;">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">Architecture</h2>
+            <p class="mb-4">CNN layer will be running on Jetson TX1 as a separate entity where the program takes Cameras signal and processes images along with centroid values of the objects. Centroid values along with Object ID’s will be transmitted to a ROS Layer which will then execute a control decision.
+            </p>
+            
+            
+
+            
+          </div>
+        </div>
+
+        
+
+        
+      </div>
+    </div>
+
+
+   
+
+    
+    <div class="site-section bg-light" id="blog-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Blog Posts</h2>
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/new_armmmmm.jpg" alt="Image" class="img-fluid">
+              <h2><a href="https://medium.com/@alishbai734/robotic-hand-that-can-see-for-itself-40e80ce05e27?source=friends_link&sk=8319b68e50d297be237c79a0d000675c">Robotic hand that can see for itself</a></h2>
+              <div class="meta mb-4">Alishba Imran<span class="mx-2">&bullet;</span> May, 2020<span class="mx-2">&bullet;</span> <a href="https://medium.com/@alishbai734/robotic-hand-that-can-see-for-itself-40e80ce05e27?source=friends_link&sk=8319b68e50d297be237c79a0d000675c"></a></div>
+              <p>More about the problem and how we're solving it using CNNs and RL.</p>
+              <p><a href="https://medium.com/@alishbai734/robotic-hand-that-can-see-for-itself-40e80ce05e27?source=friends_link&sk=8319b68e50d297be237c79a0d000675c">Continue Reading...</a></p>
+            </div> 
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/network.png" alt="Image" class="img-fluid">
+              <h2><a href="https://alishbaimran.site/DL-Robotics.html">Neural-Symbolic AI Approach to Humanoid Manipulation</a></h2>
+              <div class="meta mb-4">Alishba Imran <span class="mx-2">&bullet;</span> August, 2020<span class="mx-2">&bullet;</span> <a href="https://alishbaimran.site/DL-Robotics.html"></a></div>
+              <p>The grasping task and how we can combine neural net approaches with Symbolic AI.</p>
+              <p><a href="https://alishbaimran.site/DL-Robotics.html">Continue Reading...</a></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <div class="h-entry">
+              <img src="images/coming-soon.jpg" alt="Image" class="img-fluid">
+              <h2><a href="#">Coming soon...</a></h2>
+              <div class="meta mb-4">  <a href="#">News</a></div>
+              <p></p>
+            </div> 
+          </div>
+          
+        </div>
+
+        
+      </div>
+    </div>
+
+   
+
+    <div class="site-section" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-black">Have Questions? Let's Connect.</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5">
+            <ul>
+           <li><p class="text-black">Name: <a href="http://alishbaimran.site/">Alishba Imran</a></p></li> 
+            <li><p class="text-black">Email: <a href="mailto: alishbai734@gmail.com">alishbai734@gmail.com</a></p></li>
+            </ul>
+            <br>
+            <p class="text-black"><a href="https://www.linkedin.com/in/alishba-imran-/" class="p-3"><span class="icon-linkedin"></span></a>Linkedin: <a href="https://www.linkedin.com/in/alishba-imran-/">Alishba Imran</a></p>
+            <p class="text-black"><a href="https://twitter.com/alishbaimran_" class="p-3"><span class="icon-twitter"></span></a>Twitter: <a href="https://twitter.com/alishbaimran_">@alishbaimran_</a></p>
+
+            <hr>
+           
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+  
+  </body>
+</html>
